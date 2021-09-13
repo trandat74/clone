@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <!-- ============ REMIX ICON =============== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- ============ SWIPER CSS =============== -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <!-- ============ CSS =============== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>TEMP</title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nv class="nav container">
+            <a href="#" class="nav__logo">Travek</a>
+
+
+            <!-- Navbar menu-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discovery" class="nav__link">Discovery</a>
+                    </li>
+                  
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Place</a>
+                    </li>
+                </ul>
+                <!-- Icon Dark Mode -->
+                <div class="nav__dark">
+                    <span class="change-theme-name">
+                        Dark Mode
+                    </span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+                <!-- Icon close -->
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+
+                
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nv>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <img src="./assets/img/home1.jpg" alt="" class="home__img">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Discover your place</span>
+                        <h1 class="home__data-title">Explore The<br>Best <b>Beautiful <br>BEACHES</br></b></h1>
+                        <a href="#" class="button">Explpre</a>
+                    </div>
+                    <div class="home__social">
+                        <a href="" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 best palces to visits</span>
+                            <a href="#" class="button button--flex button--link home__info-button">
+                                More
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                        <div class="home__info-overlay">
+                            <img src="./assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+        
+
+
+        </section>
+   
+    <!-- About us-->
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">
+                    More Information <br> About The Best Beaches
+                </h2>
+                <p class="about__desc">It is a long established fact that a
+                    reader will be distracted by the readable content of a page when looking at its layout</p>
+                <a href="#" class="button">Reserve a palce</a>
+            </div>
+
+            <div class="about__img">
+                <div class="about__img-overlay">
+                    <img src="./assets/img/about1.jpg" alt="" class="about__img-one">
+                </div>
+                <div class="about__img-overlay">
+                    <img src="./assets/img/about2.jpg" alt="" class="about__img-two">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Discovery -->
+    <section class="discovery section" id="discovery">
+        <h2 class="section__title">
+            Discover the most <br> attractive palces
+        </h2>
+       
+        <div class="discovery__container container swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- discovery one -->
+                <div class="discovery__card swiper-slide">
+                    <img src="./assets/img/discover1.jpg" alt="" class="discovery__img">
+                    <div class="discovery__data">
+                        <h2 class="discovery__title">
+                            Bali
+                        </h2>
+                        <span class="discovery__desc">
+                            24h tour available
+                        </span>
+                    </div>
+                </div>
+                <!-- discovery two -->
+                <div class="discovery__card swiper-slide">
+                    <img src="./assets/img/discover2.jpg" alt="" class="discovery__img">
+                    <div class="discovery__data">
+                        <h2 class="discovery__title">
+                            Hawaii
+                        </h2>
+                        <span class="discovery__desc">
+                            14h tour available
+                        </span>
+                    </div>
+                </div>
+                <!-- discovery three -->
+                <div class="discovery__card swiper-slide">
+                    <img src="./assets/img/discover3.jpg" alt="" class="discovery__img">
+                    <div class="discovery__data">
+                        <h2 class="discovery__title">
+                            Banglasdesh
+                        </h2>
+                        <span class="discovery__desc">
+                            24h tour available
+                        </span>
+                    </div>
+                </div>
+                <!-- discovery four -->
+                <div class="discovery__card swiper-slide">
+                    <img src="./assets/img/discover1.jpg" alt="" class="discovery__img">
+                    <div class="discovery__data">
+                        <h2 class="discovery__title">
+                            Viet Nam
+                        </h2>
+                        <span class="discovery__desc">
+                            24h tour available
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experien section -->
+
+    <h2 class="experience__title section__title">
+        With Our Experience <br>We Will Serve You
+    </h2>
+    <div class="experience__container container grid">
+        <div class="experience__content grid">
+            <div class="experience__data">
+                <h2 class="experience__number">20</h2>
+                <span class="experience__desc">
+                    Year <br> Experience
+                </span>
+            </div>
+            <div class="experience__data">
+                <h2 class="experience__number">80</h2>
+                <span class="experience__desc">
+                    Complete <br> Experience
+                </span>
+            </div>
+            <div class="experience__data">
+                <h2 class="experience__number">60</h2>
+                <span class="experience__desc">
+                    Tourlist <br> Experience
+                </span>
+            </div>
+
+        </div>
+        <div class="experience__img">
+            <div class="experience__overlay">
+                <img src="./assets/img/experience1.jpg" alt="" class="experience__img-one">
+            </div>
+            <div class="experience__overlay">
+                <img src="./assets/img/experience2.jpg" alt="" class="experience__img-two">
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="video section">
+        <h2 class="section__title">Video Tour</h2>
+        <div class="video__container container">
+            <p class="video__desc">
+                Contrary to popular belief, Lorem Ipsum is not simply random text.
+            </p>
+
+            <div class="video__content">
+                <video id="video-file">
+                    <source src="./assets/video/video.mp4" type="video/mp4">
+                </video>
+
+                <button class="button button--flex video__button" id="video-button">
+                    <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Places -->
+    <div class="place section"id="place">
+        <h2 class="section__title">
+            Choose Your Place
+        </h2>
+        <div class="place__container container grid">
+            <!-- place 1 -->
+            <div class="place__card">
+                <img src="./assets/img/place1.jpg" alt="" class="place__img">
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place_rating-number">4,5</span>
+                    </span>
+                    <div class="place__data">
+                        <h3 class="place__title">Bali</h3>
+                        <span class="palce__subtitle">Indonesia</span>
+                        <span class="place__price">$499</span>
+                    </div>
+                  
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+             </div>
+                <!-- place 2 -->
+            <div class="place__card">
+                <img src="./assets/img/place1.jpg" alt="" class="place__img">
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place_rating-number">4,5</span>
+                    </span>
+                    <div class="place__data">
+                        <h3 class="place__title">Bali</h3>
+                        <span class="palce__subtitle">Indonesia</span>
+                        <span class="place__price">$499</span>
+                    </div>
+                  
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+             </div>
+                <!-- place 3 -->
+            <div class="place__card">
+                <img src="./assets/img/place1.jpg" alt="" class="place__img">
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place_rating-number">4,5</span>
+                    </span>
+                    <div class="place__data">
+                        <h3 class="place__title">Bali</h3>
+                        <span class="palce__subtitle">Indonesia</span>
+                        <span class="place__price">$499</span>
+                    </div>
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+             </div>
+                <!-- place 4 -->
+            <div class="place__card">
+                <img src="./assets/img/place1.jpg" alt="" class="place__img">
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place_rating-number">4,5</span>
+                    </span>
+                    <div class="place__data">
+                        <h3 class="place__title">Bali</h3>
+                        <span class="palce__subtitle">Indonesia</span>
+                        <span class="place__price">$499</span>
+                    </div>
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+             </div>
+                <!-- place 5 -->
+            <div class="place__card">
+                <img src="./assets/img/place1.jpg" alt="" class="place__img">
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place_rating-number">4,5</span>
+                    </span>
+                    <div class="place__data">
+                        <h3 class="place__title">Bali</h3>
+                        <span class="palce__subtitle">Indonesia</span>
+                        <span class="place__price">$499</span>
+                    </div>
+                    
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+             </div>
+             <div class="place__card">
+                <img src="./assets/img/place1.jpg" alt="" class="place__img">
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place_rating-number">4,5</span>
+                    </span>
+                    <div class="place__data">
+                        <h3 class="place__title">Bali</h3>
+                        <span class="palce__subtitle">Indonesia</span>
+                        <span class="place__price">$499</span>
+                    </div>
+                    
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <section class="subscrtibe section">
+        <div class="subscrtibe__bg">
+            <div class="subscrtibe__container container">
+                <h2 class="section__title subscrtibe__title">
+                    Subscrtibe Our <br> Newletter
+                  
+                </h2>
+                <p class="subscrtibe__desc">
+                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia
+                </p>
+            <form action="" class="subscrtibe__form">
+                <input type="text" placeholder="Enter email" class="subscrtibe__input">
+                <button class="button button_subscrtibe">
+                    Subscrtibe
+                </button>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="sponsor section">
+        <div class="sponsor__container container grid">
+            <div class="sponsor__content">
+                <img src="./assets/img/sponsors1.png" alt="" class="sponsor__img">
+                
+            </div>
+            <div class="sponsor__content">
+                <img src="./assets/img/sponsors2.png" alt="" class="sponsor__img">
+                
+            </div>
+            <div class="sponsor__content">
+                <img src="./assets/img/sponsors3.png" alt="" class="sponsor__img">
+                
+            </div>
+            <div class="sponsor__content">
+                <img src="./assets/img/sponsors4.png" alt="" class="sponsor__img">
+                
+            </div>
+            <div class="sponsor__content">
+                <img src="./assets/img/sponsors5.png" alt="" class="sponsor__img">
+                
+            </div>
+        </div>
+    </section>
+</main>
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <!-- <div class="footer__container-t">
+                
+            </div> -->
+            <div class="footer__data">
+                <h3 class="footer__title">Travel</h3>
+                <p class="footer__desc">Travel you choose the <br> All the Lorem Ipsum generators on the Internet
+                <br> experrience</p>
+                <div>
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                  
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__data">
+                <h3 class="footer__subtitle">About</h3>
+                <ul>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">About Us</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">New</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Help</h3>
+                <ul>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">About Us</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">New</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Company</h3>
+                <ul>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Team</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Plan y Pricing</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Become Like</a>
+                    </li>
+                </ul>
+            </div>
+           
+        </div>
+        <div class="container">
+
+            <div class="footer__rights">
+                <p class="footer__sopy">2021 All right reverse</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Tearm & Agreements</a>
+                    <a href="#" class="footer__terms-link">Tearm & Agreements</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scroll__up" id="scroll-up">
+        <i class="ri-arrow-up-line scroll__up-icon"></i>
+    
+    </a>
+
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <!-- ================= SWIPER JS ================= -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- ================= MAIN JS ================= -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
